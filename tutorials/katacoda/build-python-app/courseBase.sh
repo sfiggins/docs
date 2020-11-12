@@ -1,1 +1,10 @@
-docker run -d -u root --name jenkins -p 8080:8080 -p 50000:50000 -v /root/jenkins_2112:/var/jenkins_home jenkins/jenkins:2.112-alpine
+#!/bin/bash
+
+# This script contains code that should set up our scenario. 
+
+cat << EOT > intro.log
+The courseBase.sh script for the intro has exectued in the background
+and this text should now appear in the file "intro.log".
+
+EOT
+
