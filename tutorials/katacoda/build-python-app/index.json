@@ -25,17 +25,18 @@
       }
     ],
     "intro": {
-      "text": "intro.md"
+      "text": "intro.md",
+      "background": "courseBase.sh"
     },
     "finish": {
         "text": "finish.md"
     }
   },
   "environment": {
-    "hideintro": true,
+    "hideintro": false,
     "uilayout": "editor-terminal"
   },
   "backend": {
-    "imageid": "ubuntu:1804"
+    "imageid": "ubuntu"
   }
 }
